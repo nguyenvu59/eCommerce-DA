@@ -21,6 +21,8 @@ import { AccountComponent } from './page/account/account.component';
 import { WishlistComponent } from './page/wishlist/wishlist.component';
 import { ShopPageComponent } from './page/shop-page/shop-page.component';
 import { EcommerceComponent } from './page/ecommerce/ecommerce.component';
+import { ShopCartComponent } from './page/shop-cart/shop-cart.component';
+import { IonicModule } from '@ionic/angular';
 
 registerLocaleData(vi);
 
@@ -33,7 +35,8 @@ registerLocaleData(vi);
     AccountComponent,
     WishlistComponent,
     ShopPageComponent,
-    EcommerceComponent
+    EcommerceComponent,
+    ShopCartComponent
   ],
   imports: [
     BrowserModule,
@@ -44,7 +47,8 @@ registerLocaleData(vi);
     IconsProviderModule,
     NzLayoutModule,
     NzMenuModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    IonicModule.forRoot({})
   ],
   providers: [
     { provide: NZ_I18N, useValue: vi_VN }

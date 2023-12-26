@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { faGripVertical, faList } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-shop-page',
@@ -6,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./shop-page.component.css']
 })
 export class ShopPageComponent implements OnInit {
-
+  faGripVertical=faGripVertical;
+  faList=faList
   constructor() { }
 
   ngOnInit(): void {

@@ -1207,9 +1207,9 @@ h1, h2, h3, h4, h5, h6 {
   border-color: rgb(229 231 235 / var(--tw-divide-opacity));
 }
 
-.overflow-hidden {
+/* .overflow-hidden {
   overflow: hidden;
-}
+} */
 
 .rounded-full {
   border-radius: 9999px;

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faBars, faHeart, faSearch, faShoppingCart, faUser } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  isCollapsed = false;
+  faUser=faUser;
+  faSearch=faSearch;
+  faHeart=faHeart;
+  faShoppingCart=faShoppingCart;
+  faBars=faBars;
 }
